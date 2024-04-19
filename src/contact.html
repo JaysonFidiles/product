@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <nav style="text-align: left; padding: 30px 40px; border-radius: 5px; background-color: pink;">
+        <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;">
+            <li style="display: inline-block; margin-right: 10px;"><a href="../src/index.html" style="text-decoration: none; color: black; font-weight: bold; font-family: 'Roboto', sans-serif; background-color: pink; padding: 5px 10px; border-radius: 5px;">Home</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/src/category.html" style="text-decoration: none; color: black; font-weight: bold; font-family: 'Roboto', sans-serif; background-color: pink; padding: 5px 10px; border-radius: 5px;">Category</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/src/contact.html" style="text-decoration: none; color: black; font-weight: bold; font-family: 'Roboto', sans-serif; background-color: pink; padding: 5px 10px; border-radius: 5px;">Contact</a></li>
+            <li style="display: inline-block; margin-right: 10px;"><a href="/src/products.html" style="text-decoration: none; color: black; font-weight: bold; font-family: 'Roboto', sans-serif; background-color: pink; padding: 5px 10px; border-radius: 5px;">Products</a></li>
+        </ul>
+    </nav>
+    
+    <div style="max-width: 500px; margin: 50px auto; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; margin-bottom: 20px;">Contact Us</h2>
+        <form action="https://example.com/submit-form" method="post">
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="display: block; font-weight: bold;">Your Name:</label>
+                <input type="text" id="name" name="name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="display: block; font-weight: bold;">Your Email:</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="message" style="display: block; font-weight: bold;">Message:</label>
+                <textarea id="message" name="message" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; height: 150px;"></textarea>
+            </div>
+            <center>
+            <div>
+                <button type="submit" style="background-color: pink; color: black; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+            </div>
+        </center>
+        </form>
+    </div>
+</body>
+</html>
